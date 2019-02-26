@@ -1,7 +1,7 @@
 //scroll to top function
 window.onload = function() {
  jQuery(function($) {
-   var offset = {{ vertical_offset_for_trigger }};
+   var offset = 1200; // adjustable
    var duration = 500;
    $(window).scroll(function() {
      if ($(this).scrollTop() > offset) {
