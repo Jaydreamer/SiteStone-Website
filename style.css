@@ -9,3 +9,32 @@ body {
   font-family: 'Switch-Titillium', sans-serif;
   text-align: center;
 }
+// scroll to top styling
+.back-to-top {
+  position: fixed;
+  bottom: {{ position_from_bottom }};
+  right: 0px;
+  text-decoration: none;
+  color: white;
+  background-color: #B4111A;
+  font-size: 16px;
+  padding: 0.8em;
+  display: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  z-index: 60000;
+}
+.back-to-top img {
+  vertical-align: middle;
+}
+.back-to-top span {
+  padding-left: 0.5em;
+}
+.back-to-top i + span {
+  padding-left: 0;
+}
+.back-to-top:hover {
+  text-decoration: none;
+  color: #555;
+}
