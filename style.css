@@ -12,7 +12,7 @@ body {
 // scroll to top styling
 .back-to-top {
   position: fixed;
-  bottom: {{ position_from_bottom }};
+  bottom: 1em;
   right: 0px;
   text-decoration: none;
   color: white;
