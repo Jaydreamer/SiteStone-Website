@@ -1,19 +1,17 @@
+<!DOCTYPE html>
+
 <html>
   <head>
     <title>Jarrod's page of skills</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="script" type="text/javascript" href="script.js">
-	  <!--LINK JQUERY-->
-		<script type="text/javascript" src="jquery-3.3.1.js"></script>
-		<!--PERSONAL SCRIPT JavaScript-->
-		<script type="text/javascript" src="script.js">
-		//my code here
-		</script>
+    <link rel="import" href="scroll_to_top.html">
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-<div class="header #">
-   <h1 class="main-title">Jarrod Bowles - Portfolio</h1>
-</div>
+    <div class="header" id="#">
+      <h1 class="main-title">Jarrod Bowles - Portfolio</h1>
+    </div>
     <h3>The following is list of the skills I currently have in web development:</h3>
     <ul>
       <li>HTML</li>
@@ -183,8 +181,9 @@ Phasellus id erat aliquet, placerat leo vel, cursus quam. Suspendisse ut diam ma
 Fusce ultrices ut dui dignissim imperdiet. Nam non consequat lectus. Donec at vehicula eros. Mauris blandit ligula eget lorem vestibulum pretium id eu lorem. Ut fermentum elit nibh, vel elementum turpis dignissim vitae. Nulla egestas quam quis lorem lacinia, at fermentum nulla malesuada. Vestibulum convallis justo eros, a pellentesque justo ullamcorper et. Mauris porta ornare urna nec pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
 Duis consectetur molestie sodales. Integer vel tellus eu sem pulvinar ullamcorper ac malesuada tellus. Vivamus ornare purus orci, a egestas mi accumsan nec. Vivamus a dolor ut lacus accumsan vehicula. Ut et elit felis. Fusce diam eros, condimentum nec efficitur eget, condimentum ac orci. Sed ultricies felis ante, sit amet maximus lectus mattis et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut sit amet vulputate neque. Vestibulum pretium justo turpis, vel gravida urna tristique non. Donec vel cursus nibh. Aenean efficitur quam id pretium dictum. Ut sagittis ullamcorper nunc a ultricies. Quisque lobortis sed eros vitae tincidunt.</p>
-		<a href="#" title="Back to the top" class="back-to-top">
-    	<img src="/assets/arrow-in-circle-point-to-up2.png" class="scroll_to_top1">
-		</a>
+<script>
+  scroll_up()
+</script>
+<div id="includedContent"></div>
   </body>
 </html>
